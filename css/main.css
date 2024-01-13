@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap");
+body {
+  background: #f1fbff;
+}
+
+.main-btn {
+  background-color: #ff1350;
+  color: #ffc400;
+  padding: 0.5rem 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: normal;
+  font-variant-alternates: historical-forms;
+}
+.carousel-inner .carousel-item .carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+  line-height: 1.9;
+}
+
+.navbar {
+  background-color: #eff7fa;
+}
+.navbar a {
+  color: green;
+  font-size: initial;
+  font-weight: bold;
+  font-style: normal;
+}
+.navbar .navbar-brand {
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: normal;
+  font-variant-alternates: historical-forms;
+}
+.navbar .navbar-toggler {
+  color: white;
+}
+.navbar .navbar-toggler .fas {
+  color: black;
+}
+.navbar #ff {
+  color: black;
+}
+.navbar .navbar-nav .nav-link:focus {
+  color: #33d1cc;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #33d1cc;
+}
+
+.footer {
+  position: relative;
+  background-color: #192b3f;
+}
+.footer:before {
+  content: "";
+  background-size: cover;
+  background-image: url("../imgs/spices/t2.jpg");
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+.footer .contact {
+  position: relative;
+}
+.footer .contact .fab {
+  margin-left: -20px;
+  padding-top: 10px;
+  width: 50px;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.footer .contact .fab:hover {
+  color: #fff;
+  background: rgb(55, 55, 224);
+}
+.footer .contact a,
+.footer .contact ul {
+  padding-left: 25px;
+}
+.footer .contact a > svg,
+.footer .contact ul > svg {
+  width: 50px;
+  height: 50px;
+}
+.footer .linls {
+  position: relative;
+}
+.footer .linls .nav-link:focus {
+  color: #33d1cc;
+}
+.footer .linls .nav-link:hover {
+  color: #33d1cc;
+}
+.footer .contaner {
+  position: relative;
+}
+.footer .contaner .row img {
+  width: 150px;
+  height: 70px;
+}
+.footer .contaner .row .copyright > span {
+  color: #33d1cc;
+}
+.footer .contaner .row .copyright div span {
+  color: #ffc400;
+}
+.footer #w:hover {
+  color: #fff;
+  background: rgb(8, 179, 31);
+}
+.footer #ins:hover {
+  color: #fff;
+  background-color: #e1306c;
+}
+
+.soul {
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+}
+.soul ul {
+  padding: initial;
+}
+.soul ul li {
+  height: 40px;
+  width: 40px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  color: #fff;
+}
+.soul ul li:hover {
+  padding-left: 30px;
+  width: 80px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.whatsapp {
+  background: #0abf53;
+}
+
+.instagram {
+  background: #e1306c;
+}
+
+.messenger {
+  background: #1877f2;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.carousel {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar .getstarted {
+  background: #106eea;
+  margin-left: 30px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  line-height: 2.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+
+.portfolio .card {
+  -webkit-box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+          box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card {
+  -webkit-box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+          box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.services .card-body i {
+  font-size: 50px;
+}
+
+.team .card-body i {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .img-area img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-caption {
+    bottom: 125px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+
+  .about-text {
+    padding-top: 50px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+.features .contaner .main-title ::after,
+.stuff .contaner .main-title ::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: #33d1cc;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.features .contaner .main-title .ramses,
+.stuff .contaner .main-title .ramses {
+  width: 300px;
+  height: 200px;
+}
+.features .icon-holder,
+.stuff .icon-holder {
+  height: 200px;
+}
+.features .icon-holder .svg,
+.stuff .icon-holder .svg {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.features .icon-holder .number,
+.stuff .icon-holder .number {
+  font-size: 12rem;
+  color: #eff7fa;
+}
+.features .icon-holder .icon,
+.stuff .icon-holder .icon {
+  color: #33d1cc;
+}
+.features .fead h4,
+.stuff .fead h4 {
+  color: #ffc400;
+}
+.features p,
+.stuff p {
+  color: brown;
+}
+.features ::marker,
+.stuff ::marker {
+  color: green;
+  padding: 0;
+  margin: 0;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: -moz-isolate;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  -moz-text-align-last: start !important;
+       text-align-last: start !important;
+}
+
+.our-work {
+  background-color: #eff7fa;
+}
+.our-work ul .active {
+  color: #ffc400;
+  background-color: #ff1350;
+}
+.our-work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.our-work ul li:not(.active):hover {
+  color: #ff1350;
+}
+.our-work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.our-work .box::before {
+  content: attr(data-work);
+  position: absolute;
+  background-color: rgba(56, 197, 192, 0.33);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  -webkit-transform: translateX(calc(-100% - 5px));
+          transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.stuff .contaner .description {
+  max-width: 800px;
+}
+
+.team .contaner {
+  background-color: #eff7fa;
+}
+.team .contaner h2 {
+  color: #ffc400;
+}
+.team .contaner .box h4 {
+  background-color: #33d1cc;
+}
+
+.subscribe {
+  background-color: #ffc400;
+}
+.subscribe input[type=text] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type=text] :focus {
+  outline: none;
+}
+.subscribe input[type=submit] {
+  background-color: #192b3f;
+  color: #ffc400;
+}
+.subscribe ::-webkit-input-placeholder {
+  color: white;
+}
+.subscribe ::-moz-placeholder {
+  color: white;
+}
+.subscribe :-ms-input-placeholder {
+  color: white;
+}
+.subscribe ::-ms-input-placeholder {
+  color: white;
+}
+.subscribe ::placeholder {
+  color: white;
+}
